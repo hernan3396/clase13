@@ -40,11 +40,11 @@ export default class AnatomyExample extends Component {
         </Content>
         <Footer>
           <FooterTab>
-            <Link to={"/"} component={button}>
+            <Link to={"/"} component={Button}>
               <Icon name="home" />
             </Link>
 
-            <Link to="/search" component={button}>
+            <Link to="/search" component={Button}>
               <Icon name="search" />
             </Link>
           </FooterTab>
